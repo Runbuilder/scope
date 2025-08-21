@@ -49,6 +49,7 @@ body {
   font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
   line-height: 1.6;
   overflow-x: hidden;
+  min-width: 1400px; /* 최소 너비 고정 */
 }
 
 /* 글래스모피즘 효과 */
