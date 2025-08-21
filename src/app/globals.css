@@ -1,17 +1,17 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0f0f23;
-  --foreground: #ffffff;
-  --primary: #00d4ff;
-  --secondary: #7c3aed;
-  --accent: #f59e0b;
-  --success: #10b981;
-  --warning: #f59e0b;
-  --error: #ef4444;
-  --card-bg: rgba(255, 255, 255, 0.05);
-  --border: rgba(255, 255, 255, 0.1);
-  --glass: rgba(255, 255, 255, 0.08);
+  --background: #fef7ff;
+  --foreground: #374151;
+  --primary: #a5b4fc;
+  --secondary: #c084fc;
+  --accent: #fbbf24;
+  --success: #86efac;
+  --warning: #fde047;
+  --error: #fca5a5;
+  --card-bg: rgba(255, 255, 255, 0.8);
+  --border: rgba(0, 0, 0, 0.1);
+  --glass: rgba(255, 255, 255, 0.7);
 }
 
 @theme inline {
@@ -29,11 +29,11 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --background: #ffffff;
-    --foreground: #1a1a1a;
-    --card-bg: rgba(0, 0, 0, 0.03);
-    --border: rgba(0, 0, 0, 0.1);
-    --glass: rgba(0, 0, 0, 0.05);
+    --background: #fef7ff;
+    --foreground: #374151;
+    --card-bg: rgba(255, 255, 255, 0.9);
+    --border: rgba(0, 0, 0, 0.08);
+    --glass: rgba(255, 255, 255, 0.8);
   }
 }
 
@@ -63,10 +63,10 @@ body {
 /* 네오픽셀 LED 애니메이션 */
 @keyframes neopixel-glow {
   0%, 100% { 
-    box-shadow: 0 0 5px var(--primary), 0 0 10px var(--primary), 0 0 15px var(--primary);
+    box-shadow: 0 0 8px var(--success), 0 0 16px var(--success), 0 0 24px var(--success);
   }
   50% { 
-    box-shadow: 0 0 10px var(--primary), 0 0 20px var(--primary), 0 0 30px var(--primary);
+    box-shadow: 0 0 12px var(--success), 0 0 24px var(--success), 0 0 36px var(--success);
   }
 }
 
